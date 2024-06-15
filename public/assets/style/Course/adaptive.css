@@ -1,0 +1,192 @@
+@media screen and (max-width: 1545px) {
+
+    .title-cup-of-coffee {
+        font-size: 2.5em;
+    }
+
+}
+
+@media screen and (max-width: 1390px) {
+    .font-size-header-text {
+        font-size: 3em;
+    }
+
+    .nav-link {
+        font-size: 1.3em !important;
+    }
+
+    .bottom-image-header {
+        width: 40em;
+    }
+
+    .animateSuren {
+        width: 31em;
+    }
+
+    .adaptive-side-text {
+        font-size: 1.5em !important;
+    }
+
+    .block-cup-of-coffee {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+}
+
+@media screen and (max-width: 1270px) {
+    .m-button-header {
+        margin-right: 2em;
+    }
+
+    .font-size-header-text {
+        font-size: 2.5em;
+    }
+
+    .lesson-block-bigCard {
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 1163px) {
+    .hide-universal {
+        display: none;
+    }
+    .show-universal {
+        display: block;
+    }
+    .m-button-header {
+        margin-right: 0em;
+    }
+
+    #navbarNav {
+        display: none !important;
+    }
+
+    .mobile-menu-button {
+        display: block;
+    }
+
+    .hide-tablet {
+        display: none !important;
+    }
+
+    .show-tablet {
+        display: block !important;
+    }
+    .zero-out-four-button {
+        padding-bottom: 3em;
+    }
+
+    .benefit {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .tariff{
+        padding-top: 0em;
+    }
+
+    .mobile-position-socialNetwork {
+        flex-direction: column;
+    }
+    .mobile-flex {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    body, html {
+        overflow-x: hidden;
+      }
+
+    .font-size-header-text {
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+        font-size: 2.2em;
+    }
+
+    .bottom-image-header {
+        width: 35em !important;
+        left: -6em;
+    }
+
+    .animateSuren {
+        width: 26em;
+        left: -2em;
+    }
+
+    .hide-mobile {
+        display: none !important;
+    }
+
+    .show-mobile {
+        display: block !important;
+    }
+
+    .info-plate {
+        height: auto; 
+       
+    }
+
+    .top-image-header {
+        width: 21em; 
+        left: 11em;
+    }
+
+    .quick-study-text {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+
+    .margins-quick-study-card {
+        padding: 2em;
+    }
+
+    .block-cup-of-coffee {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .padding-cup-of-coffee {
+        padding-top: 20px;
+    }
+    .title-cup-of-coffee {
+        text-align: left;
+    }
+    .zero-out-four-padding {
+        padding-top: 1em;
+    }
+    .zero-out-four-title {
+        font-size: 40px;
+    }
+    .lesson-block {
+        padding-top: 2em;
+        padding-left: 0em;
+        padding-right: 0em;
+        padding-bottom: 0em;
+    }
+
+    .lesson-block-title {
+        font-size: 2.5em;
+        padding-left: 1em;
+    }
+
+    .tariff{
+        padding-top: 4em
+    }
+
+    .benefit {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .relevantQuestions {
+        padding-top: 2em;
+        padding-bottom: 4em
+    }
+
+
+}

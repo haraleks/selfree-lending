@@ -1,0 +1,188 @@
+
+
+/* --------- MainPage Relevant questions --------- */
+
+.relevantQuestionsContent {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.relevantQuestionsContainer {
+    max-width: 1030px;
+    width: 100%;
+
+}
+
+.relevantQuestionsTitle {
+    position: relative;
+    color: #000;
+
+    /* H1 */
+    font-size: 65px;
+    font-family: Onest;
+    font-weight: 500;
+    line-height: 102.023%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.relevantQuestionsBlock__title {
+    color: var(--unnamed, #000);
+    font-size: 30px;
+    font-family: Onest;
+    font-weight: 500;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.relevantQuestionsBlock__answerText {
+    color: var(--unnamed, #717171);
+    font-size: 23px;
+    font-family: Onest;
+    line-height: 123.4%;
+}
+
+
+.relevantQuestionsTitleArrow {
+    position: absolute;
+    top: 0%;
+    right: -7%;
+}
+
+.relevantQuestionsLine {
+    border-bottom: 1px solid #000000;
+
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+
+
+.relevantQuestionsBlock__button {
+    width: 39.76px;
+    height: 39.76px;
+    padding: 0;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    background: #ffffff;
+    position: relative;
+
+
+}
+
+.relevantQuestionsBlock__button:hover {
+    cursor: pointer;
+}
+
+
+
+
+.relevantQuestionsBlock__button:before {
+    border-bottom: 1px solid #000000;
+    width: 17.04px;
+    height: 0px;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 28%;
+    transform: translate(-0%, -0%);
+    transform: rotate(0deg);
+    transition: all 0.5s ease-out;
+}
+
+.relevantQuestionsBlock__button:after {
+    border-bottom: 1px solid #000000;
+    width: 17.04px;
+    height: 0px;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 28%;
+    transform: translate(-0%, -0%);
+    transform: rotate(-90deg);
+    transition: all 0.3s ease-out;
+}
+
+.relevantQuestionsBlock__button_status_opened:before {
+    cursor: pointer;
+
+}
+
+.relevantQuestionsBlock__button_status_opened:after {
+    cursor: pointer;
+    transform: rotate(0deg);
+}
+
+.relevantQuestionsBlock__titleHigthlight {
+    left: 50%;
+    top: 125%;
+    transition: all 0.2s;
+}
+
+.relevantQuestionsBlock__titleElem {
+    display: flex;
+    justify-content: space-between;
+}
+
+.relevantQuestionsBlock__answerText {
+    padding-top: 10px;
+    padding-right: 55px;
+
+    transition: 0.3s;
+    opacity: 1;
+    overflow: hidden;
+    max-height: 1000px;
+}
+
+
+.relevantQuestionsBlock__titleHigthlight_state_hidden  {
+    opacity: 0;
+}
+
+.answerTextContainer {
+    overflow: hidden;
+    height: 0;
+}
+
+.dontFound {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 146px;
+}
+
+.dontFound__title {
+    color: #000;
+    font-size: 38px;
+    font-family: Onest;
+    font-weight: 500;
+    line-height: 30px;
+    padding-bottom: 33px;
+}
+
+.dontFoundButton {
+    position: relative;
+    color: #FFF;
+    font-size: 23px;
+    font-family: Onest;
+    line-height: 145.523%;
+    padding: 22px 69px;
+    border-radius: 15px;
+    background: #7D97F4;
+    border: none;
+}
+
+.dontFoundButton__arr {
+    position: absolute;
+    top: 60%;
+    left: -45%;
+
+}
+
+
+

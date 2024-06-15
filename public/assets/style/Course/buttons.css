@@ -1,0 +1,75 @@
+/* * {*/
+/*    outline: 4px solid green !important;*/
+/*}*/
+
+.btn-purple {
+    text-decoration: none ;
+    background-color: #7b4dde ;
+    color: #ffffff ;
+    border: 5px solid #7b4dde ;
+    box-shadow: 0 4px 0 black, 0px 6px 9px 0px rgba(34, 60, 80, 0.19);
+    border-radius: 10px;
+    font-size: 20px;
+}
+.btn-purple:hover{
+    text-decoration: none ; 
+    background-color: #7b4ddece ;
+    color: #ffffff ;
+    box-shadow: none;
+}
+
+.btn-yellow {
+    padding:10px 40px;
+    text-decoration: none ;
+    background-color: #FFB626 ;
+    color: black ;
+    border: 5px solid #FFB626 ;
+    box-shadow: 0 4px 0 black, 0px 6px 9px 0px rgba(34, 60, 80, 0.19);
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.btn-yellow:hover{
+    text-decoration: none ;
+    background-color: #7b4ddece ;
+    color: #ffffff ;
+    box-shadow: none;
+}
+
+.btn-yellow-tariff {
+    background-color: #FFB627 ;
+    color: black ;
+    border: 5px solid #FFB627 ;
+    box-shadow: 0 4px 0 black, 0px 6px 9px 0px rgba(34, 60, 80, 0.19);
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.btn-yellow-tariff:hover{
+    text-decoration: none ;
+    background-color: #7b4ddece ;
+    color: #ffffff ;
+    box-shadow: none;
+}
+
+.btn-broun-tariff {
+    background-color: #AA3900 ;
+    color: white ;
+    border: 5px solid #AA3900 ;
+    box-shadow: 0 4px 0 black, 0px 6px 9px 0px rgba(34, 60, 80, 0.19);
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.btn-broun-tariff:hover{
+    text-decoration: none ;
+    background-color: #AA3900 ;
+    color: #ffffff ;
+    box-shadow: none;
+}
+
+.socialNetwork-btn {
+    box-shadow: 0 2px 0 #7B4DDE;
+    padding: 15px;
+}
+

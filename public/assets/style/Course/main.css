@@ -1,0 +1,374 @@
+
+html { overflow-x: hidden; }
+
+.margins-header {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.containerMainImg {
+    position: relative;
+    text-align: center;
+}
+.bottom-image-header {
+    position: relative;
+    z-index: 1;
+}
+
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .hypnotize {
+    animation: spin 35s linear infinite;
+  }
+
+@keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+    
+  }
+
+  .animateSuren {
+    animation: float 2s ease-in-out infinite;
+    position: absolute;
+    top: 10%;
+    left: 12%;
+    z-index: 2;
+  }
+
+.animate-cap-of-coffee {
+    transform: translate(-50%, -50%);
+    /*animation: float 2s ease-in-out infinite;*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+}
+
+
+.middle-image-header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+.top-image-header {
+    position: absolute;
+    bottom: 5em;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+}
+
+.feedback-block {
+    width: 100%;
+background-image: url("/assets/media/image/main/Feedback_form.svg");
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.zero-out-four {
+background-color: #E7EDFA;
+padding-left: 5%;
+padding-right: 5%;
+}
+
+.teachers-block {
+    background-color: #F8F8F9;
+}
+
+.lesson-block {
+    padding-top: 10em ;
+    padding-left: 7em;
+    padding-right: 7em;
+    padding-bottom: 10em;
+}
+
+.lesson-block-card {
+margin: 15px;
+}
+
+.lesson-block-bigCard {
+    border-radius: 30px;
+}
+
+.reviews-block {
+    background-color: #E7EDFA;
+}
+
+.reviews-card {
+    border-radius: 30px;
+    background-color: white;
+    max-width: 277px;
+    min-width: 277px;
+    min-height: 341px;
+}
+
+.tariff {
+    padding-top: 10em;
+}
+
+.tariff-mobile {
+    display: none;
+}
+
+.tariff-cards-header-1 {
+    border-radius: 30px;
+    background-color:#7B4DDE;
+    color: white;
+    box-shadow: 0 4px 0 black, 0px 6px 9px 0px rgba(34, 60, 80, 0.19);
+    position: relative;
+    top: -80px;
+}
+
+.tariff-cards-header-2 {
+    border-radius: 30px;
+    background-color:#AA3900;
+    color: white;
+    box-shadow: 0 4px 0 black, 0px 6px 9px 0px rgba(34, 60, 80, 0.19);
+    position: relative;
+    top: -80px;
+}
+
+.tariff-cards-header-3 {
+    border-radius: 30px;
+    background-color:#FFB627;
+    color: black;
+    box-shadow: 0 4px 0 black, 0px 6px 9px 0px rgba(34, 60, 80, 0.19);
+    position: relative;
+    top: -80px;
+}
+
+
+.tariff-cards {
+    border-radius: 30px;
+    border: solid 1px #848EA2;
+    padding: 2em;
+}
+
+.tariff-cards ul {
+    list-style-position: inside;
+  }
+
+.tariff-cards li {
+    list-style-type: none; 
+   
+   }
+   .tariff-cards li:before {
+    content: "→"; 
+    font-size: 2em;
+    margin-left: -1em;
+   }
+
+.tariff-cards .color-purple span {
+    color:#7B4DDE ;
+}
+
+.tariff-cards .color-broun span {
+    color:#AA3900 ;
+}
+
+.inactive-text {
+    opacity: 0.7;
+    text-decoration: line-through;
+}
+
+.font-size-price {
+    font-size: 3em;
+}
+
+.benefit {
+padding-left: 10em;
+padding-right: 10em;
+padding-top: 5em;
+padding-bottom: 5em;
+
+}
+
+.benefit .left {
+
+height: 100em;
+}
+
+.benefit .right {
+    height: 100em;
+}
+
+.relevantQuestions {
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
+
+.socialNetwork {
+    padding-top: 2em;
+    padding-bottom: 10em;
+}
+
+.carouselReviews {
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    margin-bottom: 10em;
+    /* scrollbar-width: none !important;
+    -ms-overflow-style: none !important; */
+    
+}
+
+.megamenu {
+    z-index: 100;
+}
+
+.carouselReviews::-webkit-scrollbar {
+    width: 0;
+  }
+
+
+.carouselReviews::-webkit-scrollbar-track {
+    
+    background-color: #e4e4e4;
+  border-radius: 100px;
+}
+
+.carouselReviews::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+    border: 2px solid rgba(0, 0, 0, 0.18);
+    border-left: 0;
+    border-right: 0;
+    background-color: #8070d4;
+}
+
+/* =================================== */
+
+.color-change {
+    color: black;
+    transition: color 2s ease; /* Добавляем плавный переход цвета */
+  }
+  .color-change.visible {
+    color: #7B4DDE;
+  }
+/* =================================== */
+.container-сup-of-coffee {
+    position: relative;
+    width: 80%;
+}
+
+.background-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.1);
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+@keyframes floating {
+    0% {
+        transform: translate(-50%, -50%) scale(1.1) translateY(0);
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1.1) translateY(-10px);
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(1.1) translateY(0);
+    }
+}
+
+.overlay-image {
+    animation: floating 3s ease-in-out infinite;
+}
+
+/* ======Адаптив====== */
+.font-size-header-text {
+    font-size: 4em;
+}
+
+.m-button-header {
+    margin-right: 8em;
+}
+
+.block-cup-of-coffee {
+    padding-left:95px;
+    padding-right:95px;
+}
+
+.title-cup-of-coffee {
+    font-size: 3em; 
+    text-align: center;
+}
+
+.mobile-menu-button {
+    display: none;
+
+}
+
+.mobile-menu {
+    background-color: #E7EDFA ;
+}
+
+.size-logo {
+    width: 15em ;
+}
+
+.hide-mobile {
+    display: block;
+}
+
+.show-mobile {
+    display: none;
+}
+
+.hide-tablet {
+    display: block;
+}
+
+.show-tablet {
+    display: none;
+}
+
+.info-plate {
+    width: 475px; 
+    height: 146px; 
+     opacity: 0.90; 
+     background: white;
+      border-radius: 30px; 
+      border: 2px #FFB627 solid
+}
+
+.margins-quick-study-card {
+    padding: 5em;
+}
+
+.padding-cup-of-coffee {
+    padding-top: 150px;
+}
+
+.zero-out-four-padding {
+    padding-top: 10em;
+}
+
+.zero-out-four-title {
+    font-size: 70px;
+}
+
+.lesson-block-title {
+    font-size: 3em;
+}
+

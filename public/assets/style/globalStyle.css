@@ -1,0 +1,241 @@
+/* -------- Body -------- */
+
+@font-face {
+    font-weight: 900;
+    font-family: 'Onest';
+    src: url("../fonts/OnestBlack1602-hint.ttf");
+    font-display: swap;
+}
+
+@font-face {
+    font-weight: 800;
+    font-family: 'Onest';
+    src: url("../fonts/OnestExtraBold1602-hint.ttf");
+    font-display: swap;
+}
+
+@font-face {
+    font-weight: 700;
+    font-family: 'Onest';
+    src: url("../fonts/OnestBold1602-hint.ttf");
+    font-display: swap;
+}
+
+@font-face {
+    font-weight: 500;
+    font-family: 'Onest';
+    src: url("../fonts/OnestMedium1602-hint.ttf");
+    font-display: swap;
+}
+
+@font-face {
+    font-weight: 400;
+    font-family: 'Onest';
+    src: url("../fonts/OnestRegular1602-hint.ttf");
+    font-display: swap;
+}
+
+@font-face {
+    font-weight: 300;
+    font-family: 'Onest';
+    src: url("../fonts/OnestLight1602-hint.ttf");
+    font-display: swap;
+}
+
+@font-face {
+    font-weight: 100;
+    font-family: 'Onest';
+    src: url("../fonts/OnestThin1602-hint.ttf");
+    font-display: swap;
+}
+
+body {
+    margin: 0;
+    font-family: 'Onest';
+    color: #FFFFFF;
+    background-color: #F8F8F9;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+.button {
+    border: 0;
+    transition: .1s linear;
+}
+
+img.lazyload[data-src] {opacity: 0;}
+img.lazyload[src] { opacity: 1;transition: opacity .4s ease;}
+
+.button:hover {
+    cursor: pointer;
+    transform: translateY(-4px);
+}
+
+
+/* -------- Container -------- */
+
+.container {
+    margin: 0 auto;
+    padding: 0 10px;
+    max-width: 1190px;
+    width: 100%;
+}
+
+.toast-container {
+    z-index: 999;
+}
+
+
+/* --------- COOKIEs --------- */
+
+.cookieNotification {
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    z-index: 999;
+    max-width: 600px;
+    width: 100%;
+
+    border-radius: 18px;
+    background: #FFF;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    padding: 38px 31px 25px 194px;
+
+    display: none;
+}
+
+.cookieNotification_state_visible {
+    display: block;
+}
+
+.cookieNotificationContent__img1{
+    position: absolute;
+    top: 20%;
+    left: 2%;
+}
+
+.cookieNotificationContent__img2{
+    position: absolute;
+    top: 15%;
+    left: 4%;
+}
+
+
+
+.cookieNotificationContent__buttonClose {
+    width: 39.76px;
+    height: 39.76px;
+    padding: 0;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    top: 14px;
+    right: 30px;
+
+}
+
+.cookieNotificationContent__buttonClose:hover {
+    cursor: pointer;
+}
+
+
+
+
+.cookieNotificationContent__buttonClose:before {
+    border-bottom: 1px solid #fff;
+    width: 17.04px;
+    height: 0px;
+    content: "";
+    position: absolute;
+    top:50%;
+    left:28%;
+    transform:translate(-0%, -0%);
+    transform: rotate(0deg);
+    transition: all 0.5s ease-out;
+}
+
+.cookieNotificationContent__buttonClose:after {
+    border-bottom: 1px solid #fff;
+    width: 17.04px;
+    height: 0px;
+    content: "";
+    position: absolute;
+    top:50%;
+    left:28%;
+    transform:translate(-0%, -0%);
+    transform: rotate(-90deg);
+    transition: all 0.3s ease-out;
+}
+
+.buttonsCookie {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    align-items: center;
+}
+
+
+.cookieNotificationContent__buttonOk {
+    border-radius: 10px;
+    background: #111;
+    color: #FFF;
+    text-align: center;
+    font-size: 15px;
+    font-family: Onest;
+    font-weight: 500;
+    line-height: 145.523%;
+    text-transform: uppercase;
+    padding: 12px 14px;
+}
+
+.cookieNotificationContent__buttonDeny {
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+    font-family: Onest;
+    font-weight: 500;
+    line-height: 145.523%;
+    text-transform: uppercase;
+    padding: 12px 42px;
+}
+
+.cookieNotificationContent__text {
+    color: #000;
+    font-size: 16px;
+    font-family: Onest;
+    line-height: 102.023%;
+    padding-bottom: 16px;
+}
+
+.mb {
+    margin-top: 20px;
+    max-width: 320px;
+}
+
+.center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
