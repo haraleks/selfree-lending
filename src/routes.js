@@ -49,4 +49,21 @@ router.get('/education-paid', (req, res) => {
     res.sendFile(filePath);
 });
 
+// API
+
+router.post('/api/sendForm', (req, res) => {
+    const send = require('../api/sendForm');
+    const response = send(req.body);
+
+    if(response.status == 'success') {
+        res.status(200)
+    }
+
+    if(response.status == 'error') {
+        res.status(400);
+    }
+
+    res.json(response);
+});
+
 module.exports = router 
